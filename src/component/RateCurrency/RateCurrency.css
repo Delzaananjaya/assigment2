@@ -1,0 +1,57 @@
+
+table {
+    color: #fff;
+    background-color: none;
+    border-collapse: collapse;
+    width: 40vw;
+}
+
+tfoot td {
+    font-size: 14px;
+}
+
+th, td {
+    padding: 2px;
+    font-size: 18px;
+}
+
+td {
+    text-align: center;
+}
+
+td:first-child {
+    font-weight: normal;
+}
+
+tr:nth-child(even) {
+    background-color: none;
+}
+
+i {
+    color: #fc6934;
+    margin-right: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+
+.spin-container{
+    position: relative;
+    text-align: center;
+}
+
+.spin-container p {
+    font-weight: bold;
+    color: #fff;
+}
+
+.spin{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border: 6px solid rgba(255, 255, 255, .3);
+    border-radius: 50%;
+    border-top-color: #fff;
+}
